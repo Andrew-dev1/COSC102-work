@@ -1,0 +1,129 @@
+*************************************************
+*         Lab 01 - Reflection Responses         *
+*              COSC 102 - Spring '24            *
+*************************************************
+
+Name: Andrew Li
+start time: 1:05
+
+
+2.2.1)
+   
+--Expected Results--
+
+   Result #1: 1
+   
+   Result #2: 1.8
+   
+   Result #3: 80.0
+   
+
+
+--Actual Results--
+
+   Result #1: 17
+   
+   Result #2: 1.8
+   
+   Result #2: 80.0   
+   
+   
+
+What do these two code snippets tell you about Java math?:
+
+It follows PEMDAS order of operation, and any inclusion of 
+doubles automatically changes to the math to doubles math. 
+Truncation still going on in java. 
+
+
+
+
+2.2.2)
+Improvement #1:
+
+The checking of the number against the low and high can be shortened
+to one if-else check. 
+
+
+Improvement #2:
+
+The print lines do not have to be seperated from the first if-else
+statement. It can be included in the one if-else line and therefore
+the variable TheVariable is not needed. 
+
+
+
+
+
+2.2.4)
+Describe FOUR of the errors you corrected
+
+Error #1:
+
+I changed (ch1 == (ch2 + 1) || (ch2 - 1)) to (ch1 == (ch2 + 1) || ch1 == (ch2 - 1))
+because you need two seperate boolean expressions. The or 
+operator can't compare two values. 
+
+Error #2:
+
+elif -> else if. Elif is python while else if is java,
+and I deleted the ; at the end of that line
+
+Error #3:
+
+I fixed the else statement because it should not have a 
+conditional and added brackets
+
+Error #4
+
+I fixed the print statement by changing the commas for +. 
+Java interprets each comma as a seperator and thus multiple 
+values for the print statement, which only accepts one value.
+
+
+
+
+
+
+2.2.5)
+Why did this syntax error occur and how did you fix it?:
+
+this syntax error occured because the variables were initialized inside the 
+conditionals, so they were local variables that can not be accessed in the main stack.
+
+
+
+
+
+2.3.1)
+Did your card access work?  Any issues?:
+
+
+
+
+Yes it worked 
+
+
+2.3.2)
+One aspect of Java syntax you have found challenging and/or interesting thus far:
+
+The syntax is not very challenging, but the structure is 
+a bit annoying to complete compared to python. 
+
+
+
+
+
+2.3.3)
+What is one interesting detail about yourself?:
+   
+A future goal of mine is to teach myself about money and 
+retire my parents by the time I am 30. 
+   
+   
+   
+   
+   
+   
+   
+   
